@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <title>Apple</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="../../Image/iconapple.ico">
+  </head>
+  <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+button {
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+width: 20%;
+}
+
+button:hover {
+opacity: 0.8;
+}
+
+.cancelbtn {
+width: auto;
+padding: 10px 18px;
+background-color: #f44336;
+}
+
+.imgcontainer {
+text-align: center;
+margin: 24px 0 12px 0;
+}
+
+img.avatar {
+width: 40%;
+border-radius: 50%;
+}
+
+.container {
+padding: 16px;
+text-align: center;
+}
+
+span.psw {
+float: center;
+padding-top: 16px;
+}
+.btn {
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  position: center;
+  text-decoration: none;
+
+}
+.Buy_Now {background-color:Orange;}
+.Buy_Now :hover {background: Orange;}
+.Buy_Now :link {text-decoration: none;}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 150px) {
+span.psw {
+   display: block;
+   float: none;
+}
+.cancelbtn {
+   width: 100%;
+}
+}
+</style>
+
+<body>
+
+<form>
+<div class="imgcontainer" style="text-align: center;">
+  <a href="../Homepage/index.html"><img src="../../Image/loginapple.png" alt="Avatar" class="avatar" style="width: 200px;"></a>
+</div>
+
+<div class="container" style="text-align: center;">
+  <p style="padding-right: 35px">
+  <b>Username</b>
+  <input type="text" placeholder="Enter Name" style="width: 242px;">
+ </p>
+  <p style="padding-right: 35px">
+  <b>Password</b>
+  <input type="password" placeholder="Enter Password" style="width: 242px;">
+  </p>
+  <a class="btn Buy_Now"href=../Homepage/index.html>Login</a><br>
+  <label><br>
+    <input type="checkbox"> Remember me
+  </label>
+</div>
+
+<div class="container" style="background-color:#f1f1f1">
+  <button type="button" class="cancelbtn">Cancel</button>
+  <a class="btn Buy_Now"href=../Login/Signup.html>Sign Up</a><br>
+  <span class="psw">Forgot <a href="#">password?</a></span>
+</div>
+</form>
+
+</body>
+</html>
