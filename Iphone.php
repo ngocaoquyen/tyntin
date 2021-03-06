@@ -1,1 +1,1 @@
-<?php include_once("Iphone/Iphone.html") ?>
+<?php include_once("Iphone.html") ?>
