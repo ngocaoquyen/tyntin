@@ -1,1 +1,1 @@
-<?php include_once("HTML/Homepage/home.html"); ?>
+<?php require_once("index.html") ?>
